@@ -1,0 +1,74 @@
+*{
+padding:0;
+    margin:0;
+    font-size:40px;
+}
+.box-one {
+    background-color:red;
+    padding:20px;
+    border: 20px solid purple;
+    margin:20px;
+    width:200px;
+    height:300px;
+}
+.box-two{
+    background-color:blue;
+    padding:20px;
+    border:20px solid purple;
+margin:70px;
+    width:25%;
+    height:25%;
+}
+table{
+    width:100%;
+}
+h1{
+    text-align:center;
+}
+td,th {
+    border:2px solid black;
+    width:14.27%;
+}
+th{
+    padding:30px;
+    background-color:black;
+    color:white;
+    text-align:left;
+}
+.weekend{
+    background-color: gray;
+    color:black;
+}
+.summer{
+    background-color:green;
+    color:black;
+}
+.minimum{
+    background-color:gray;
+    color:white;
+}
+.normal{
+    background-color:orangered;
+    color:black;
+}
+.late{
+    background-color:yellow;
+    color:black;
+}
+td{
+    font-weight:bold;
+    font-size:24px;
+    padding-bottom:32px;
+}
+p{
+    font-size:20px;
+    text-align:center;
+}
+.no {
+    background-color:black;
+    color:white;
+}
+.next{
+    bacckground-color:white;
+    color:white;
+}

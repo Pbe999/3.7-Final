@@ -1,0 +1,146 @@
+*{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.parent{
+    background-color:green;
+    min-height:100px;
+    padding:2px;
+    display:flex;
+}
+.child{
+    min-height:50px;
+    min-width:50px;
+}
+
+.red{
+background-color:red;
+}
+.yellow{
+background-color:yellow;
+}
+.example1{
+    justify-content:space-between;
+    align-items:center;
+}
+.example2{
+align-items:stretch;
+}
+.mainbox{
+    background-color:yellow;
+    order:2;
+    flex:3;
+}
+.aside1{
+    background-color:lightblue;
+    order:1;
+    flex:1;
+}
+.aside2{
+    background-color:pink;
+    order:3;
+    flex:1;
+}
+.example3 .child {
+    flex:1;
+}
+.purple{
+    background-color:purple;
+}
+.orange{
+    background-color:orange;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    margin:2px;
+}
+.example4{
+    flex-direction:column;
+}
+.light{
+    background-color:lightblue;
+    min-height:50px;
+    min-width:50px;
+    flex:6;
+}
+.dark{
+    background-color:blue;
+    min-height:10px;
+    min-width:10px;
+    flex:1;
+
+}
+.example5{
+    flex-direction:column;
+}
+.yellowline {
+    min-height:30px;
+    margin:3px;
+    background-color:yellow;
+    flex:1;
+}
+.bars {
+    display:flex;
+    flex-direction:row;
+    flex:6;
+    justify-content:space-around;
+}
+.bar{
+ background-color:teal;
+    width:20%;
+    min-height:300px;
+}
+
+.example6{
+    min-height:200px;
+}
+.child1{
+    min-height:100px;
+    min-width:100px;
+    flex:1;
+    margin:2px;
+}
+.child2{
+    min-height:100px;
+    min-width:100px;
+    flex:3;
+    margin:2px;
+    flex-direction:column;
+}
+.darkblue{
+    background-color:blue;
+    min-height:100px;
+    width:100%;
+    flex:1;
+}
+.grandchild1{
+    min-height:100px;
+    width:100%;
+    flex:1;
+    display:flex;
+    flex-direction:row;
+}
+.lightblue{
+    background-color:lightblue;
+    min-height:50px;
+    width:100%;
+    margin:2px;
+}
+.g-grandchild1{
+    min-height:50px;
+    width:100%;
+    margin:2px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.lime{
+    background-color:lime;
+    width:100%;
+    height:40%;
+    margin:2px;
+    flex:1;
+}

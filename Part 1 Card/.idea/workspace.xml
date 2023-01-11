@@ -1,7 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2c2b358-9c6c-4ea9-9ab6-9263b6e06ffc" name="Default Changelist" comment="" />
+    <list default="true" id="a2c2b358-9c6c-4ea9-9ab6-9263b6e06ffc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/.idea/ 1.12 Card Plan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ 1.12 Card Plan/styling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/.idea/1.14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/Books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/Hobbies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/Movies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/Songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.14/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/.idea/BoxModelNotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/Calender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoxModelNotes/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/.idea/CSSCards.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSSCards/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/.idea/Flexbox Layouts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/Index 2 for number 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flexbox Layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/Roboticcs Club.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/AboutUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Competitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/ContactUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Instructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/Our Club's History.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/OurTeam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/istockphoto-1300054533-1024x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roboticcs Club/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thanks Giving Menu/.idea/Thanks Giving Menu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thanks Giving Menu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thanks Giving Menu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thanks Giving Menu/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thanks Giving Menu/Menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/.idea/Zillow Cards.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zillow Cards/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/.idea/Zoo Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/desert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/grassland.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/polar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/rainforest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo Project/tundra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basics/.idea/basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basics/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/.idea/externalCSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/AboutMe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../externalCSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/.idea/flexbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flexbox/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/.idea/html notes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Basics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/ExternalCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Flyer 1.1 Version 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Flyer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/My FIle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/My Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Recipe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/Table Notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/listNotes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/mediaNotes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html notes/page2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/.idea/recipeBlog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/recipe1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/recipe2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/recipe3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipeBlog/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/tile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NavBar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NavBar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Yu-Gi-Oh cards/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Yu-Gi-Oh cards/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +174,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -41,6 +199,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,11 +219,13 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,14 +285,32 @@
       <workItem from="1667493433274" duration="1198000" />
       <workItem from="1667928752539" duration="643000" />
       <workItem from="1668619976522" duration="46000" />
+      <workItem from="1673375194441" duration="132000" />
+      <workItem from="1673458431179" duration="819000" />
     </task>
+    <task id="LOCAL-00001" summary="Cards">
+      <created>1673375246039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673375246039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Got rid of spacing">
+      <created>1673458684558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458684558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18466000" />
+    <option name="totallyTimeSpent" value="19417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -154,12 +334,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cards" />
+    <MESSAGE value="Got rid of spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got rid of spacing" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

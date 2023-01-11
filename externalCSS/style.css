@@ -1,0 +1,10 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAspaaqZm5Ye5uPl61Y2uwSV78kHTQF8ck5A&usqp=CAU);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+p {
+    color: navy;
+    font-size:20px;
+}
