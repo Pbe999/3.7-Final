@@ -24,6 +24,8 @@ console.log(10 != 10); //are they different? false
 console.log(15>15);
 
 console.log(15>=15)
+
+console.log(17%2);
 //Logical Operators
 
 //Ternary Operators use three values
