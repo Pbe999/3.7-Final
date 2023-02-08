@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10280ce-c30d-486e-8d6b-5063508025e2" name="Default Changelist" comment=" binary">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operators.js" beforeDir="false" afterPath="$PROJECT_DIR$/Operators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Roboticcs Club/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roboticcs Club/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -119,7 +118,7 @@
       <workItem from="1674235994436" duration="1949000" />
       <workItem from="1675188300124" duration="1162000" />
       <workItem from="1675445752561" duration="22000" />
-      <workItem from="1675704957208" duration="814000" />
+      <workItem from="1675704957208" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary=" binary">
       <created>1674075097010</created>
@@ -135,11 +134,18 @@
       <option name="project" value="LOCAL" />
       <updated>1674237062010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" initial commit">
+      <created>1675706246078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675706246078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10447000" />
+    <option name="totallyTimeSpent" value="11581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -169,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" binary" />
-    <option name="LAST_COMMIT_MESSAGE" value=" binary" />
+    <MESSAGE value=" initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2.1.2 data text..js" />
