@@ -7,7 +7,6 @@
 // sayHello();
 
 
-//This code lets be input any numbers I want when i go to use the function
 // function printMax(){
 //     let x = 6;
 //     let y = 29;
@@ -19,7 +18,7 @@
 // }
 // printMax();
 
-
+//This code lets me input any numbers I want when i go to use the function
 // function printMax(x, y){
 //          if ( x > y){
 //         console.log(`The larger number is ${x}.`);
@@ -35,8 +34,19 @@
 
 
 //uses addition and lets me set the values at the end
-function sum(num1, num2){
-    console.log(`${num1} + ${num2} = ${num1 + num2}`);
-}
-sum(7, 5);
-sum(4,1094);
+// function sum(num1, num2){
+//     console.log(`${num1} + ${num2} = ${num1 + num2}`);
+// }
+// sum(7, 5);
+// sum(4,1094);
+
+
+//1
+//
+// function product(length1, width2){
+//     console.log(`${length1} * ${width2} = ${length1 * width2}`);
+// }
+// product(2, 4);
+
+
+//2
