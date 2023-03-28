@@ -96,7 +96,7 @@ function compareArrays(arr) {
 compareArrays(values);
 //Updating a top 3 list
 
-let highScores = [107, 99, 98]
+let highScores = [107, 99, 98];
 
 let newScore = 101;
 
