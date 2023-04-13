@@ -11,4 +11,4 @@ console.log(randomNum);
 let randomAnswer = answerList[randomNum];
 console.log(randomAnswer);
 
-readline.question('Did you enjoy the program and do you have any feedback?');
+readline.question('Thank you for trying my program, did you enjoy it and do you have any feedback?');
