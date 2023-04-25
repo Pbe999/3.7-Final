@@ -39,3 +39,16 @@ if (wantbeverage === "yes"){
 }else{
     console.log("your total cost is $" + sandwichPrices[sandwich].toFixed(2) + '.');
 }
+
+let wantFries = readline.question("Would you like fries(yes or no):");
+console.log(`wantFries: ${wantFries}`);
+let friesPrices ={
+    small:1.00,
+    medium:1.50,
+    large:2.00
+};
+let friesSize;
+let friesCost = 0;
+if(wantFries == "yes");{
+friesSize = readline.question(" What size fries woudl you like? (small, medium, or large:")
+}
