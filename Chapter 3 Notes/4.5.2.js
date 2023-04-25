@@ -45,13 +45,13 @@ function sum(list){
     return sum;
 }
 
-function rollStat(){
-    let list = [];
+function rollStat(list){
+     list = [];
     rollDice(4,list);
     return sum(list);
 }
 
-function createChar(character1,){
+function createChar(character1,list){
     character1.name = readLine.question('Enter character name:');
     console.log('Rolling STR');
     character1.strength = rollStat(diceRolled);
