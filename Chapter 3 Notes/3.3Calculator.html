@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectangle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h3>Calculate Rectangle Area</h3>
+        <div class="row">
+            <div>
+                <label for="length">Length</label>
+                <input type="text" id="length" name="length" style="width: 100px;">
+            </div>
+            <div>
+                <label for="width">Width</label>
+                <input type="text" id="width" name="width" style="width: 100px;">
+            </div>
+        </div>
+        <button id="calc">Calculate</button>
+        <button id="clear">Clear</button>
+        <p></p>
+    </div>
+</div>
+<script>
+    const length = document.getElementById('length');
+    const width = document.getElementById('width');
+    const ans = document.querySelector('p');
+    const calculateButton = document.getElementById('calc');
+    const clearButton = document.getElementById('clear');
+
+    calculateButton.addEventListener('click', function(e) {
+        let rectLength = parseFloat(length.value);
+        let rectWidth = parseFloat(width.value);
+        let rectArea = rectLength * rectWidth;
+        ans.textContent = "The area of the rectangle is " + rectArea;
+    });
+
+    clearButton.addEventListener('click', function(e) {
+        length.value = "";
+        width.value = "";
+        ans.textContent = "";
+    });
+</script>
+</body>
+</html>

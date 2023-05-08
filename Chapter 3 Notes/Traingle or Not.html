@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Triangle???</title>
+    <title>Triangle</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <div class="content">
-        <h3> Is it a triangle???</h3>
+        <h3>Is it a Triangle?</h3>
         <div class="row">
             <div>
                 <label for="a">A</label>
                 <input type="text" id="a" name="a" style="width: 100px;">
             </div>
-                <div>
-                    <label for="b">B</label>
-                    <input type="text" id="b" name="b" style="width: 100px;">
-                </div>
-
+            <div>
+                <label for="b">B</label>
+                <input type="text" id="b" name="b" style="width: 100px;">
+            </div>
             <div>
                 <label for="c">C</label>
                 <input type="text" id="c" name="c" style="width: 100px;">
@@ -36,26 +35,31 @@
     const ans = document.querySelector('p');
     const calculateButton = document.getElementById('calc');
     const clearButton = document.getElementById('clear');
-    function checkIsTrie(num1, num2, num3){
-        let sideAB = (num1 + num2) > num3;
-        let sideAC = (num1 + num3)> num2;
-        let sideBC =(num2 + num3) > num1;
-        if (sideAB && sideAC && sideBC){
+    function checkIsTriangle(num1, num2, num3) {
+        let sideAB = num1 + num2 > num3;
+        let sideAC = num1 + num3 > num2;
+        let sideBC = num2 + num3 > num1;
+        if (sideAB && sideAC && sideBC) {
             return true;
-        } return false;
+        }
+        return false;
     }
-    calculateButton.addEventListener('click', function(e)){
-    {
+    calculateButton.addEventListener('click', function(e) {
         let sideA = +a.value;
         let sideB = +b.value;
         let sideC = +c.value;
-        if (checkIsTrie(sideA, sideB, sideC)) {
-            ans.textContent = "Yes, this makes a valid triangle"
+        if (checkIsTriangle(sideA, sideB, sideC)) {
+            ans.textContent = "Yes, this makes a valid triangle";
             return;
         }
-        ans.textContent = "Inputs do NOT create a valid traingle"
-    })
-
+        ans.textContent = "Inputs do NOT create a valid triangle";
+    });
+    clearButton.addEventListener('click', function(e) {
+        a.value = "";
+        b.value = "";
+        c.value = "";
+        ans.textContent = "";
+    });
 </script>
 </body>
 </html>
