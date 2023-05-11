@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose Your Avatar</title>
+    <style>
+        .container{
+            text-align:center
+        }
+        img{
+            display:block;
+            margin:0 auto;
+            max-width:400px;
+            max-height:400px;
+        }
+        .avatar-buttons{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+        .avatar-buttons button{
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Choose Your Avatar</h1>
+    <div class="avatar-buttons">
+        <button id="avatar1">avatar1</button>
+        <button id="avatar2">avatar2</button>
+        <button id="avatar3">avatar3</button>
+        <button id="avatar4">avatar4</button>
+        <button id="avatar5">avatar5</button>
+        <button id="avatar6">avatar6</button>
+    </div>
+    <img id="avatar-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrYqtnGRr0ZWg-wlgoUaxXbkz-hn1jtFVmOg&usqp=CAU"
+         alt="Avatar1">
+    <button id="clear">CLEAR</button>
+</div>
+<script>
+    const avatar1Button = document.getElementById('avatar1');
+    const avatar2Button = document.getElementById('avatar2');
+    const avatar3Button = document.getElementById('avatar3');
+    const avatar4Button = document.getElementById('avatar4');
+    const avatar5Button = document.getElementById('avatar5');
+    const avatar6Button = document.getElementById('avatar6');
+    const clearButton = document.getElementById('clear');
+
+    const avatarImage = document.getElementById('avatar-image');
+
+    avatar1Button.addEventListener('click', function(e){
+        avatarImage.src='https://www.theloadout.com/wp-content/sites/theloadout/2022/11/god-of-war-ragnarok-does-kratos-die.jpg';
+    });
+    avatar2Button.addEventListener('click', function(e){
+        avatarImage.src='https://images4.alphacoders.com/933/thumb-1920-933158.jpg';
+    });
+    avatar3Button.addEventListener('click', function(e){
+        avatarImage.src='https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/Ichigo-Kurosaki.jpg';
+    });
+    avatar4Button.addEventListener('click', function(e){
+        avatarImage.src='https://i.ytimg.com/vi/PD4dsFlEdXQ/maxresdefault.jpg';
+    });
+    avatar5Button.addEventListener('click', function(e){
+        avatarImage.src='https://cdn.vox-cdn.com/thumbor/YxBiJZCitBWc9-54zw3osq-SMOo=/0x0:1920x1200/1200x800/filters:focal(837x518:1143x824)/cdn.vox-cdn.com/uploads/chorus_image/image/72001445/mario_movie_direct.0.jpg';
+    });
+    avatar6Button.addEventListener('click', function(e){
+        avatarImage.src='https://s.t13.cl/sites/default/files/styles/manualcrop_850x475/public/t13/field-imagen/2019-10/1557689182-goku.jpg.jpeg?itok=0br9JVyk';
+    });
+
+    clearButton.addEventListener('click',function(e){
+        removeImage();
+    });
+
+    function removeImage(){
+        avatarImage.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrYqtnGRr0ZWg-wlgoUaxXbkz-hn1jtFVmOg&usqp=CAU';
+    }
+
+</script>
+</body>
+</html>
