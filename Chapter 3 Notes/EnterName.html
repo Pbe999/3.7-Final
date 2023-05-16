@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Greetings</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="content">
+        
+
+
+
+        <fieldset>
+
+            <legend>Enter your name</legend>
+
+            <div class="row">
+
+                <div>
+
+                    <label for="firstName">First Name:</label>
+
+                    <input type="text" id="firstName">
+
+                </div>
+
+                <div>
+
+                    <label for="lastName">Last Name:</label>
+
+                    <input type="text" id="lastName">
+
+                </div>
+
+            </div>
+
+            <button onclick="sayHello()">Say Hello</button>
+
+        </fieldset>
+
+
+
+        <div id="helloMessages"></div>
+
+    </div>
+
+</div>
+
+<script>
+
+    function sayHello() {
+
+        const firstNameInput = document.querySelector("#firstName");
+
+        const lastNameInput = document.querySelector("#lastName");
+
+        const helloMessages = document.querySelector("#helloMessages");
+
+
+
+        const firstName = firstNameInput.value;
+
+        const lastName = lastNameInput.value;
+
+
+
+        if (firstName && lastName) {
+
+            const fullName = firstName + " " + lastName;
+
+            const helloMessage = document.createElement("p");
+
+            helloMessage.textContent = "Hello, " + fullName + "!";
+
+            helloMessages.prepend(helloMessage);
+
+
+
+            firstNameInput.value = "";
+
+            lastNameInput.value = "";
+
+        }
+
+    }
+
+</script>
+
+</body>
+
+</html>
