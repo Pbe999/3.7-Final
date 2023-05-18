@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <title>Math Calculator</title>
+
+     <style>
+    #statements {
+        margin-bottom: 10px;:
+     }
+
+     </style>
+
+</head>
+
+<body>
+
+ <h2>Math Calculator</h2>
+
+
+ <input type="text" id="number1" placeholder="Enter a number">
+
+ <select id="operator">
+
+       <option value="+">+</option>
+
+       <option value="-">-</option>
+
+       <option value="*">*</option>
+
+       <option value="/">/</option>
+
+       <option value="%">%</option>
+
+       <option value="^">^</option>
+
+     </select>
+
+ <input type="text" id="number2" placeholder="Enter another number">
+
+ <button onclick="calculate()">=</button>
+
+ <button onclick="clearAll()">Clear</button>
+
+
+ <div id="statements"></div>
+
+
+ <script>
+    function calculate() {
+        var number1 = parseFloat(document.getElementById("number1").value);
+        var number2 = parseFloat(document.getElementById("number2").value);
+        var operator = document.getElementById("operator").value;
+        var result;
+
+        switch (operator) {
+            case '+':
+
+                result = number1 + number2;
+                break;
+            case '-':
+
+                result = number1 - number2;
+                break;
+            case '*':
+
+                result = number1 * number2;
+                break;
+            case '/':
+
+                result = number1 / number2;
+                break;
+            case '%':
+
+                result = number1 % number2;
+                break;
+            case '^':
+
+                result = Math.pow(number1, number2);
+                break;
+
+        }
+
+        var statement = number1 + ' ' + operator + ' ' + number2 + ' = ' + result;
+        document.getElementById("statements").innerHTML += '<p>' + statement + '</p>';
+
+        clearInputs();
+
+    }
+
+    function clearAll() {
+        document.getElementById("statements").innerHTML = '';
+        clearInputs();
+
+    }
+
+    function clearInputs() {
+        document.getElementById("number1").value = '';
+        document.getElementById("number2").value = '';
+
+    }
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
