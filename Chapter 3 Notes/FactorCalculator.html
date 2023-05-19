@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+ <input type="text" id="number1" placeholder="Enter a number">
+
+ <select id="operator">
+
+       <option value="+">+</option>
+
+       <option value="-">-</option>
+
+       <option value="*">*</option>
+
+       <option value="/">/</option>
+
+       <option value="%">%</option>
+
+       <option value="^">^</option>
+
+</select>
+     <input type="text" id="number2" placeholder="Enter another number">
+
+     <button onclick="calculate()">=</button>
+
+     <button onclick="clearAll()">Clear</button>
+
+
+     <div id="statements"></div>
+
+
+    <script>
+
+
+
+
+    const number1 = document.getElementById('num1');
+    const number2 = document.getElementById('num2');
+    const ans = document.querySelector('p');
+    const calculateButton = document.getElementById('calc');
+    const clearButton = document.getElementById('clear');
+    const divideButton = document.getElementById('div');
+    const addButton = document.getElementById('add');
+    const subtractButton = document.getElementById('sub');
+    const remainderButton =document.getElementById('rem');
+
+    calculateButton.addEventListener('click', function(e) {
+        let numnum1 = parseFloat(number1.value);
+        let numnum2 = parseFloat(number2.value);
+        let total = numnum1 * numnum2;
+        ans.textContent =`${numnum1} x ${numnum2} = ${total}`;
+    });
+
+    addButton.addEventListener('click', function(e) {
+        let numnum1 = parseFloat(number1.value);
+        let numnum2 = parseFloat(number2.value);
+        let total = numnum1 + numnum2;
+        ans.textContent =`${numnum1} + ${numnum2} = ${total}`;
+    });
+
+    remainderButton.addEventListener('click', function(e) {
+        let numnum1 = parseFloat(number1.value);
+        let numnum2 = parseFloat(number2.value);
+        let total = numnum1 % numnum2;
+        ans.textContent =`${numnum1} % ${numnum2} = ${total}`;
+    });
+
+
+    subtractButton.addEventListener('click', function(e) {
+        let numnum1 = parseFloat(number1.value);
+        let numnum2 = parseFloat(number2.value);
+        let total = numnum1 - numnum2;
+        ans.textContent =`${numnum1} - ${numnum2} = ${total}`;
+    });
+
+    divideButton.addEventListener('click', function(e) {
+        let numnum1 = parseFloat(number1.value);
+        let numnum2 = parseFloat(number2.value);
+        let total = numnum1 / numnum2;
+        ans.textContent = `${numnum1} / ${numnum2} = ${total}`;
+    });
+
+
+
+    clearButton.addEventListener('click', function(e) {
+        number1.value = "";
+        number2.value = "";
+        ans.textContent = "";
+    });
+
+    clearInputs();
+
+    function clearAll() {
+        document.getElementById("statements").innerHTML = '';
+        clearInputs();
+
+    }
+
+    function clearInputs() {
+        document.getElementById("number1").value = '';
+        document.getElementById("number2").value = '';
+
+    }
+
+</script>
+</body>
+</html>
